@@ -1,0 +1,46 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #e1354b;
+}
+
+.App-logo {
+  width: 20%;
+}
+
+.App-body {
+  border-top: 4px solid #e1354b;
+  border-bottom: 4px solid #e1354b;
+  height: 70vh;
+  padding: 50px;
+  margin-left: -15px;
+}
+
+.App-body p {
+  top: 3rem;
+  left: 2.5rem;
+}
+
+.App-body div {
+  margin-left: -5px;
+  margin-top: 15px;
+}
+
+.App-body label,
+input {
+  margin: 5px;
+}
+
+.App-footer {
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
